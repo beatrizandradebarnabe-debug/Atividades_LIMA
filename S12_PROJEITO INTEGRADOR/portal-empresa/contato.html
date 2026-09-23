@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #d6e6fd;
+    color: #18345f;
+    margin: 0;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+    </style>
+</head>
+<body> 
+   <img src="/imagens/contato.png" alt="Logo da Empresa">
+    <header>
+        <h1>Fale Conosco</h1>
+        <p>Estamos à disposição para atender você. Preencha o formulário ou utilize nossos canais de atendimento.</p>
+    </header>
+
+    <main>
+        <!-- Seção do Formulário de Contato -->
+        <section>
+            <h2>Enviar uma Mensagem</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                </div>
+                <br>
+                <div>
+                    <label for="telefone">Telefone / WhatsApp:</label><br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                </div>
+                <br>
+                <div>
+                    <label for="assunto">Assunto:</label><br>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvidas">Dúvidas</option>
+                        <option value="orcamento">Orçamento</option>
+                        <option value="suporte">Suporte Técnico</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Seção de Dados de Contato -->
+        <section>
+            <h2>Informações de Contato</h2>
+            <ul>
+                <li><strong>E-mail:</strong> contato@aprovae.com</li>
+                <li><strong>Telefone:</strong> (11) 4002-8922</li>
+                <li><strong>WhatsApp:</strong> (11) 99999-9999</li>
+                <li><strong>Endereço:</strong> Av. Principal, 1000 - Centro, Americana - SP</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Seção de Horário de Atendimento -->
+        <section>
+            <h2>Horário de Atendimento</h2>
+            <ul>
+                <li><strong>Segunda a Sexta-feira:</strong> 08:00 às 18:00</li>
+                <li><strong>Sábado:</strong> 08:00 às 12:00</li>
+                <li><strong>Domingos e Feriados:</strong> Fechado</li>
+            </ul>
+        </section>
+    </main>
+<h3>
+Para voltar à página inicial clique no botão abaixo ⬇️<br>
+</h3>
+<button>
+    <a href="index.html">Página Inicial</a>
+</button>
+    <footer>
+        <p>&copy; 2026 Aprovaê - Todos os direitos reservados.</p>
+    </footer>
+</body>
